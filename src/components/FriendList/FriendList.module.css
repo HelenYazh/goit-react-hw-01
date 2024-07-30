@@ -1,0 +1,23 @@
+.list {
+  padding-top: 30px;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  gap: 5px;
+  width: 350px;
+}
+
+.card {
+  width: calc(100% / 5);
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
