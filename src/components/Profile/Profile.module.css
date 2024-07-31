@@ -1,14 +1,16 @@
 .card {
-  border: 3px black solid;
+  border: 3px solid black;
   border-radius: 8px;
   padding: 25px 0 0 0;
   width: 350px;
+  margin: 0 auto;
 }
 
 .img {
   width: 148px;
   height: 148px;
   border-radius: 50%;
+  object-fit: cover;
   background-color: dimgray;
 }
 
@@ -19,13 +21,16 @@
 
 .stats {
   list-style: none;
+  background-color: rgb(211, 211, 211);
   display: flex;
-  padding-top: 10px;
+  justify-content: space-around;
+  border-radius: 0 0 8px 8px;
+  margin-top: 10px;
 }
 
 .listItem {
-    border: 1px grey solid;
-      background-color: rgb(211, 211, 211);
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -35,5 +40,5 @@
 }
 
 .number {
-    font-weight: bold;
+  font-weight: bold;
 }
